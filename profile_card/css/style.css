@@ -1,0 +1,59 @@
+@font-face {
+   font-family: Poppins;
+   src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background: #1a5f7a;
+   font-family: Poppins;
+}
+
+.card {
+   margin: 0 auto;
+   padding-bottom: 1rem;
+   width: 35%;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+
+   background-color: white;
+}
+.card_section {
+   width: 100%;
+   height: 20vh;
+
+   background-image: url('../images/background.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.profile_image {
+   margin-top: -2rem;
+   margin-bottom: 0.5rem;
+   width: 70px;
+   height: 60px;
+   border-radius: 50%;
+}
+h2 {
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   font-family: Poppins;
+}
+p {
+   text-align: justify;
+   padding: 0 1rem;
+}
+.btn {
+   padding: 0.5rem 2rem;
+   background: #180364;
+   color: white;
+   border: none;
+   border-radius: 5rem;
+   margin: 1rem 0rem;
+   cursor: pointer;
+}
